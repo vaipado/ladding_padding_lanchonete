@@ -10,54 +10,26 @@
         content="A melhor pizza artesanal e lanches suculentos de Santa Teresa - ES. Ingredientes frescos e entrega rápida. Peça já pelo WhatsApp!">
     <meta property="og:title" content="Lanchonete e Pizzaria Várzea Alegre">
     <meta property="og:description" content="Pizzas e lanches artesanais em Santa Teresa - ES. Peça agora!">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1000">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&q=60&auto=format">
     <meta property="og:type" content="website">
-
     <link rel="icon" type="image/png" href="assets/logo-lanchonete.png">
-
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <style>
-        .bg-food {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=1000');
-            background-size: cover;
-            background-position: center;
-        }
-
-        .whatsapp-float {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 100;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-        body{
-            height: 100dvh;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-white text-gray-800 font-sans overflow-x-hidden">
-    <div class="fixed top-4 right-4 z-50">
-    <a href="#" class="bg-[#991818] w-16 h-16 flex items-center justify-center rounded-xl shadow-2xl hover:scale-110 transition duration-300 border-2 border-white/20">
-        <img src="assets/logo-lanchonete.jpg" alt="Logo Várzea Alegre" class="w-12 h-12 object-cover rounded-lg">
-    </a>
-</div>
 
     <a href="https://wa.me/27999110672" aria-label="Pedir pelo WhatsApp"
         class="whatsapp-float bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 hover:scale-110 transition duration-300 flex items-center justify-center">
         <i class="fab fa-whatsapp text-3xl"></i>
     </a>
 
-    <section class="bg-food h-screen flex items-center justify-center text-center text-white px-4">
+    <section class="bg-food min-h-[100svh] py-20 flex items-center justify-center text-center text-white px-6">
         <div class="max-w-3xl" data-aos="fade-up">
-            <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+            <h1 class="text-3xl md:text-6xl font-bold mb-4 leading-tight px-2">
                 O sabor <span class="text-yellow-400">caseiro</span> que você ama.
             </h1>
             <p class="text-lg md:text-xl mb-8 opacity-90">
